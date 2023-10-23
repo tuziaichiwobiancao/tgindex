@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms | Forms</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/static/images/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="/static/images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/images/icons/favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/images/icons/favicon-114x114.png">
+    <!--Loading bootstrap css-->
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700,300">
+    <link type="text/css" rel="stylesheet" href="/static/styles/jquery-ui-1.10.4.custom.min.css">
+    <link type="text/css" rel="stylesheet" href="/static/styles/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="/static/styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="/static/styles/animate.css">
+    <link type="text/css" rel="stylesheet" href="/static/styles/all.css">
+    <link type="text/css" rel="stylesheet" href="/static/styles/main.css">
+    <link type="text/css" rel="stylesheet" href="/static/styles/style-responsive.css">
+    <link type="text/css" rel="stylesheet" href="/static/styles/zabuto_calendar.min.css">
+    <link type="text/css" rel="stylesheet" href="/static/styles/pace.css">
+    <link type="text/css" rel="stylesheet" href="/static/styles/jquery.news-ticker.css">
+</head>
+<body>
+    <div>
+        <!--END TOPBAR-->
+        <div id="wrapper">
+            <!--BEGIN SIDEBAR MENU-->
+            <div id="page-wrapper">
+                <!--BEGIN TITLE & BREADCRUMB PAGE-->
+
+                <!--END TITLE & BREADCRUMB PAGE-->
+                <!--BEGIN CONTENT-->
+                <div class="page-content">
+                    <div id="tab-general">
+                        <div class="row mbl">
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <div class="panel panel-pink">
+                                            <div class="panel-heading">
+                                                自定义欢迎设置</div>
+                                            <div class="panel-body pan">
+                                                <form action="" method="POST" enctype="multipart/form-data">
+                                                <div class="form-body pal">
+                                                    <div class="form-group">
+                                                        <textarea rows="5" name="entertext" placeholder="自定义内容" class="form-control">{$res["entertext"]}</textarea></div>
+                                                    <div class="row">
+                                                        <div class="col-md-4">
+                                                            <div class="form-group">
+                                                                <select class="form-control" name="entertype">
+                                                                    <option value="0">纯文本</option>
+                                                                    <option value="1">图片加文字</option>
+                                                                    <option value="2">视频加文字</option>
+                                                                </select></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-icon right">
+                                                            <i class="fa fa-envelope"></i>
+                                                            <input id="inputFile" name="fileurl" type="file" class="form-control" /></div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <textarea rows="5" name="button" placeholder="按钮数据" class="form-control">{$res["button"]}</textarea></div>
+                                                </div>
+                                                <div class="form-actions text-right pal">
+                                                    <button type="submit" class="btn btn-primary">
+                                                        提交</button>
+                                                </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END CONTENT-->
+                <!--BEGIN FOOTER-->
+
+                <!--END FOOTER-->
+            </div>
+            <!--END PAGE WRAPPER-->
+        </div>
+    </div>
+    <script src="/static/script/jquery-1.10.2.min.js"></script>
+    <script src="/static/script/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/static/script/jquery-ui.js"></script>
+    <script src="/static/script/bootstrap.min.js"></script>
+    <script src="/static/script/bootstrap-hover-dropdown.js"></script>
+    <script src="/static/script/html5shiv.js"></script>
+    <script src="/static/script/respond.min.js"></script>
+    <script src="/static/script/jquery.metisMenu.js"></script>
+    <script src="/static/script/jquery.slimscroll.js"></script>
+    <script src="/static/script/jquery.cookie.js"></script>
+    <script src="/static/script/icheck.min.js"></script>
+    <script src="/static/script/custom.min.js"></script>
+    <script src="/static/script/jquery.news-ticker.js"></script>
+    <script src="/static/script/jquery.menu.js"></script>
+    <script src="/static/script/pace.min.js"></script>
+    <script src="/static/script/holder.js"></script>
+    <script src="/static/script/responsive-tabs.js"></script>
+    <script src="/static/script/jquery.flot.js"></script>
+    <script src="/static/script/jquery.flot.categories.js"></script>
+    <script src="/static/script/jquery.flot.pie.js"></script>
+    <script src="/static/script/jquery.flot.tooltip.js"></script>
+    <script src="/static/script/jquery.flot.resize.js"></script>
+    <script src="/static/script/jquery.flot.fillbetween.js"></script>
+    <script src="/static/script/jquery.flot.stack.js"></script>
+    <script src="/static/script/jquery.flot.spline.js"></script>
+    <script src="/static/script/zabuto_calendar.min.js"></script>
+    <script src="/static/script/index.js"></script>
+    <!--LOADING SCRIPTS FOR CHARTS-->
+    <script src="/static/script/highcharts.js"></script>
+    <script src="/static/script/data.js"></script>
+    <script src="/static/script/drilldown.js"></script>
+    <script src="/static/script/exporting.js"></script>
+    <script src="/static/script/highcharts-more.js"></script>
+    <script src="/static/script/charts-highchart-pie.js"></script>
+    <script src="/static/script/charts-highchart-more.js"></script>
+    <!--CORE JAVASCRIPT-->
+    <script src="/static/script/main.js"></script>
+    
+</body>
+</html>
