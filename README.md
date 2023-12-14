@@ -35,13 +35,20 @@ mysql 5.7
 演示群组:https://t.me/thisindexd
 
 ### 骗子曝光
+
 骗子1、
+
 TG：https://t.me/autopqk
+
 TG机器人:https://t.me/sousou123_bot
+
 TG群组:https://t.me/sousuo_q
+
 网址:https://aotopqk.lol
+
 git地址:https://github.com/mmmrp/telegram-sousuo
-![骗子曝光](https://images.gitee.com/uploads/images/2020/0929/202947_8db2d281_10933.gif "骗子曝光")
+
+![骗子曝光](https://github.com/tuziaichiwobiancao/tgindex/blob/main/image/photo_2023-12-14_13-30-33.jpg "骗子曝光")
 
 
 
