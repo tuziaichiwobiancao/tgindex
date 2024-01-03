@@ -20,6 +20,16 @@ mysql 5.7
 
 购买联系客服TG:https://t.me/buzhiguiqi
 
+### 最新版更新
+
+1、新增搜索指数
+
+2、新增用户搜索日志
+
+3、新增授权,深度加密,深度授权,网络授权，防止倒卖
+
+4、相对这个骗子https://github.com/mmmrp/telegram-sousuo新增搜索指数，可担保可先搭建再付款
+
 ### 搭建教程
 进入到各个文件的README.md有搭建说明
 
