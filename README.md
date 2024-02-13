@@ -34,7 +34,7 @@ mysql 5.7
 进入到各个文件的README.md有搭建说明
 
 ### 演示信息
-后台地址:http://admin.hyperindex.tk/wocaole.php
+后台地址:http://admin.kime.eu.org/wocaole.php
 
 用户名:admin
 
